@@ -1,0 +1,5 @@
+-- NOME , MARCA  QUANTIA DE ESTOQUE DO PRODUTO MAIS CARO 
+SELECT nome, marca, estoque 
+FROM produto 
+ORDER BY preco DESC 
+LIMIT 1;
